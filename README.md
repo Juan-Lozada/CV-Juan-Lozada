@@ -1,2 +1,28 @@
-# CV-Juan-Lozada
-Un resumen de mi hoja de vida, en la cual podrán conocer un poco acerca de mi y de mis capacidades laborales.
+Juan Lozada CV
+============
+
+-------------------     ----------------------------
+Correo:                     juan.lozada1905@gmail.com
+
+Santiago, Chile                              
+22 Años
+-------------------     ----------------------------
+
+Conocimientos
+---------
+
+- HTML 5 
+
+- CSS 
+
+- Bootstrap
+
+- Git - GitHub
+
+
+**Desarrollador Full-stack en formación**
+
+Idiomas
+--------------------
+
+**Ingles - Intermedio**
