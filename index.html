@@ -10,7 +10,11 @@
     <link rel="icon" type="image/png" sizes="32x32" href="CV-Juan-Lozada/assets/imgs/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="CV-Juan-Lozada/assets/imgs/favicon-16x16.png">
     <link rel="manifest" href="CV-Juan-Lozada/assets/imgs/site.webmanifest">
-    <link rel="stylesheet" href="CV-Juan-Lozada/assets/css/style.css"
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+    integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="CV-Juan-Lozada/assets/css/style.css">
     <title>Juan Lozada CV</title>
 </head>
 <body>
@@ -61,31 +65,74 @@
 
     <header id="Hero-Section" class="text-light justify-content-md-right bg-dark">
         <div class="container">
-            <div class="ms-auto col-12 col-md-5">
-                <h1 class="display-1 fw-bold my-5">
+            <div id="header-h2" class="ms-auto bg-dark col-sm-12 col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6 ">
+                <h1 class="display-1 fw-bold my-4">
                     <br> Juan   <br> Lozada
                 </h1>
-                <h2 id="header-h2" class="my-5">
+                <h2  class="my-4 mb-0">
                     Futuro Desarrollador web Full-stack.<br><br>
                     <div class="row">
-                        <div class="col-2"><img src="CV-Juan-Lozada/assets/imgs/Html5.png"></div>
-                        <div class="col-2"><img src="CV-Juan-Lozada/assets/imgs/css3.png"></div>
-                        <div class="col-2"><img src="CV-Juan-Lozada/assets/imgs/Bootstrap.png"></div>
-                      </div>
-                    </div>
-                      
-                    
-                    
+                        <div class="col-4 col-sm-4 col-xs-4 col-sm-2 col-md-4 col-lg-4 col-xl-4 pb-4"><img src="CV-Juan-Lozada/assets/imgs/Html5.png"></div>
+                        <div class="col-4 col-sm-4 col-xs-4 col-sm-2 col-md-4 col-lg-4 col-xl-4 pb-4"><img src="CV-Juan-Lozada/assets/imgs/css3.png"></div>
+                        <div class="col-4 col-sm-4 col-xs-4 col-sm-2 col-md-4 col-lg-4 col-xl-4 pb-4"><img src="CV-Juan-Lozada/assets/imgs/Bootstrap.png"></div>
+                    </div>             
                 </h2>
-                <div class="mb-5 pb-5">
-                    <button class="btn btn-lg btn-outline-info text-light me-4">Trabajos</button>
-                    <button class="btn btn-lg btn-info text-light">Contacto</button>
+                <div class="mb-5 pb-3">
+                    <button id="boton-header" class="btn btn-lg btn-outline-info text-light me-4" style="border-color: #006666;">Trabajos</button>
+                    <button id="boton-header" class="btn btn-lg text-light" style="background-color: #006666;">Contacto</button>
                 </div>
             </div>
         </div>
     </header>
 
+    <section id="Acerca-de-mi" class="container text-center my-5 ">
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      <h2 class="display-3 fw-bold my-4">Acerca de mi</h2>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+            <img src="CV-Juan-Lozada/assets/imgs/Foto-perfil.jpg" class="container text-center my-5">
+          </div>
+
+          <div class="col-8">
+            <div class="row">
+              <div class="col-sm-12 col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6"">
+                <i class="fa-solid fa-id-card fa-3x my-3"></i>
+                <h3 class="my-3 fw-bold">Informacion personal</h3>
+                <p class="my-3">
+                  <h6>22 años</h3>
+                  <h6>Desarrollador Full-stack en formacion</h3>
+                  <h6>Santiago, Chile.</h3>
+                </p>  
+              </div>
+
+              <div class="col-sm-12 col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+                <i class="fa-solid fa-earth-americas fa-3x my-3"></i>
+                <h3 class="my-3 fw-bold">Idiomas</h3>
+                <p class="my-3"> 
+                  <b>- Ingles (oral: intermedio, escrito: avanzado).<br>
+                  - Español (nativo)</b>
+                </p>
+              </div>
+
+              <div class="col-sm-12 col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12"">
+                <i class="fa-solid fa-laptop-code fa-3x my-3"></i>
+                <h3 class="my-3 fw-bold">Tecnologias</h3>
+                <h5 class="my-3">
+                   HTML 5 <br>
+                   CSS 3 <br>
+                   Git / Github <br>
+                   Bootstrap <br>
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
+     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/dda935257c.js" crossorigin="anonymous"></script>
 </body>
 </html>

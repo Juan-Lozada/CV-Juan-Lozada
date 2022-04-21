@@ -6,9 +6,34 @@ body {
 #Hero-Section {
     background-image: url("../imgs/logo.png");
     background-repeat: no-repeat;
-    background-position: left;
-  }
+    background-size: contain;
+  } 
 
   #header-h2 img {
       width: 6vh;
   }
+
+  #boton-header:hover {
+    background-color: #006666;
+  }
+
+  #header-h2 h2 h1 {
+      width: 1vh;
+  }
+
+  #Acerca-de-mi {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+  }
+
+  @media (min-width:0px) and (max-width: 1002px) {
+    
+    .card-img-top{
+        width: 10vh;
+        height: 35vh;
+    }
+
+    #Hero-Section {
+        background-image: none;
+    }
+}
