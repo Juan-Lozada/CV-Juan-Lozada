@@ -39,13 +39,22 @@ body {
     }
 }
 
-
-.carousel-caption  {
-  background-color: black;
-  opacity: 0.7;
-  width: 80%;
-}
-
 #trabajos {
   background-size: cover;
+}
+
+.carousel-images{
+  background-color: black ;
+  margin: 0;
+}
+
+#carousel-cap-button {
+  background-color: gainsboro;
+  opacity: 0.8;
+  color: burlywood;
+}
+
+#carousel-cap-button:hover {
+  background-color: #006666;
+  color: white;
 }
