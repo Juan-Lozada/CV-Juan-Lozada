@@ -48,13 +48,28 @@ body {
   margin: 0;
 }
 
-#carousel-cap-button {
+#carousel-cap-button  {
   background-color: gainsboro;
   opacity: 0.8;
-  color: burlywood;
+  color:black;
 }
 
 #carousel-cap-button:hover {
   background-color: #006666;
+  opacity: 1;
+}
+
+
+.form-control:hover{
+  color: #006666;
+}
+
+#feedback {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: white;
+  background-color: #006666;
+}
+
+a {
+  text-decoration: none;
 }
